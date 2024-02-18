@@ -1,72 +1,215 @@
-# _xeno md-multi-device_
-## _Multi device whatsapp bot created with [/XENO SER IS BACK ](https://github.com/A-d-i-t-h-y-a-n7/xeno)_
-  
-<div align="center">
-   
-<a href="https://raganork-network.vercel.app/"><img align="center" src="https://i.imgur.com/dzPTA6u.png" alt="Scan QR" height="112" width="300" /></a><br>
+Skip to content
+INR-L/gfx.js Secret
+Created 3 minutes ago • Report abuse
+Code
+Revisions
+1
+gfx
+gfx.js
+const {
+	inrl,
+	config
+} = require('../lib');
+const axios = require('axios');
 
-<a href="https://www.buymeacoffee.com/skl11"><img src="https://img.buymeacoffee.com/button-api/?text=Support this project&emoji=&slug=skl11&button_colour=FFDD00&font_colour=000000&font_family=Poppins&outline_colour=000000&coffee_colour=ffffff" /></a><br>
+const postJson = async(id, options) =>{
+const res = await axios.post(`${config.BASE_URL}api/gfx/${id}`, options);
+return Buffer.from(res.data.result)
+}
 
-<div>
-<br>
-
-## Deploy to Heroku ↓
-
-<a href="https://github.com/sou6av/deploy-raganork/fork" target="blank"><img align="center" src="https://i.imgur.com/cxaSEWe.png" alt="Deploy bot" height="112" width="310" /></a>
-  <div>
-<br>
-<a href="https://raganork-network.vercel.app/heroku-deploy" target="blank"><img align="center" src="https://i.imgur.com/6rs61MY.png" alt="Deploy bot" height="112" width="310" /></a>
-  <div>
-<br>
-
-## Deploy to Koyeb ↓
-
-<a href="https://raganork-web.vercel.app/deploy" target="blank"><img align="center" src="https://i.imgur.com/PNoLtFq.png" alt="Deploy bot" height="112" width="310" /></a>
-  <div>
-<br>
-<div>
-  <br>
-
-
-## Deploy to Railway ↓
-#### (No setvar command, must set vars manually from settings)
-<a href="https://railway.app/template/Mt-g4a" target="blank"><img align="center" src="https://railway.app/button.svg" alt="Deploy bot" height="" width="" /></a>
-  <div>
-<br>
-<div>
-  <br>
-
-## Deploy in VPS [linux] ↓
-<div align="left">
-
-```
-1. Install nodejs, git, ffmpeg
-2. npm i -g yarn pm2
-3. git clone https://github.com/A-d-i-t-h-y-a-n7/xeno-md && cd xeno-md
-4. yarn install --ignore-engines --network-concurrency 1
-5. vi config.env
-6. Enter your session there in format 'SESSION=your_session_here'
-7. Press ctrl+c, then type ':wq' and press enter
-8. npm start
-
-Now the bot will start working
-```
-
-<div align="center">
-
-## _[Koyeb: How to deploy](https://github.com/A-d-i-t-h-y-a-n7/xeno-md/wiki/Deploying-with-Koyeb)_
-
-## _[Basic usage helper](https://github.com/A-d-i-t-h-y-a-n7/xeno-md/wiki/Raganork-Documentation)_
-
-<div align="left">
-
-# Note
-
-I can't guarantee or can be held responsible if you get blocked or banned by using this software. WhatsApp does not allow bots using unofficial methods on their platform, so this shouldn't be considered totally safe. 
-
-# Legal
-
--   This code is in no way affiliated, authorized, maintained, sponsored or endorsed by WA (WhatsApp) or any of its affiliates or subsidiaries.
--   The official WhatsApp website can be found at https://whatsapp.com. "WhatsApp" as well as related names, marks, emblems and images are registered trademarks of their respective owners.
--   This is an independent and unofficial software Use at your own risk.
-
+inrl({
+	pattern: 'gfx1 ?(.*)',
+	desc: "generate gfx logo",
+	type: 'gfx',
+}, async (message, match) => {
+	match = match || message.reply_message.text;
+	if(!match) return await message.send('_*Example:* gfx1 inrl|its me|dev_');
+	if(match.startsWith(1)) return;
+	let options = {apikey:'inrl-bot-mdaqz3ks6md7'}, n= 1;
+	if(match.includes('|')){
+	options.text = match.split('|')[0];
+	match.split('|').splice(0).map(a=>options[`text${n++}`] = a);
+	} else options['text'] = match
+	const res = await postJson('gfx1', options);
+	return await message.send(res, {quoted: message.data},'image');
+});
+inrl({
+	pattern: 'gfx2 ?(.*)',
+	desc: "generate gfx logo",
+	type: 'gfx',
+}, async (message, match) => {
+	match = match || message.reply_message.text;
+	if(!match) return await message.send('_*Example:* gfx2 inrl|its me|dev_');
+	let options = {apikey:'inrl-bot-mdaqz3ks6md7'}, n= 1;
+	if(match.includes('|')){
+	options.text = match.split('|')[0];
+	match.split('|').splice(0).map(a=>options[`text${n++}`] = a);
+	} else options['text'] = match
+	const res = await postJson('gfx2', options);
+	return await message.send(res, {quoted: message.data},'image');
+});
+inrl({
+	pattern: 'gfx3 ?(.*)',
+	desc: "generate gfx logo",
+	type: 'gfx',
+}, async (message, match) => {
+	match = match || message.reply_message.text;
+	if(!match) return await message.send('_*Example:* gfx3 inrl|its me|dev_');
+	let options = {apikey:'inrl-bot-mdaqz3ks6md7'}, n= 1;
+	if(match.includes('|')){
+	options.text = match.split('|')[0];
+	match.split('|').splice(0).map(a=>options[`text${n++}`] = a);
+	} else options['text'] = match
+	const res = await postJson('gfx3', options);
+	return await message.send(res, {quoted: message.data},'image');
+});
+inrl({
+	pattern: 'gfx4 ?(.*)',
+	desc: "generate gfx logo",
+	type: 'gfx',
+}, async (message, match) => {
+	match = match || message.reply_message.text;
+	if(!match) return await message.send('_*Example:* gfx4 inrl|its me|dev_');
+	let options = {apikey:'inrl-bot-mdaqz3ks6md7'}, n= 1;
+	if(match.includes('|')){
+	options.text = match.split('|')[0];
+	match.split('|').splice(0).map(a=>options[`text${n++}`] = a);
+	} else options['text'] = match
+	const res = await postJson('gfx4', options);
+	return await message.send(res, {quoted: message.data},'image');
+});
+inrl({
+	pattern: 'gfx5 ?(.*)',
+	desc: "generate gfx logo",
+	type: 'gfx',
+}, async (message, match) => {
+	match = match || message.reply_message.text;
+	if(!match) return await message.send('_*Example:* gfx5 inrl|its me|dev_');
+	let options = {apikey:'inrl-bot-mdaqz3ks6md7'}, n= 1;
+	if(match.includes('|')){
+	options.text = match.split('|')[0];
+	match.split('|').splice(0).map(a=>options[`text${n++}`] = a);
+	} else options['text'] = match
+	const res = await postJson('gfx5', options);
+	return await message.send(res, {quoted: message.data},'image');
+});
+inrl({
+	pattern: 'gfx6 ?(.*)',
+	desc: "generate gfx logo",
+	type: 'gfx',
+}, async (message, match) => {
+	match = match || message.reply_message.text;
+	if(!match) return await message.send('_*Example:* gfx6 inrl|its me|dev_');
+	let options = {apikey:'inrl-bot-mdaqz3ks6md7'}, n= 1;
+	if(match.includes('|')){
+	options.text = match.split('|')[0];
+	match.split('|').splice(0).map(a=>options[`text${n++}`] = a);
+	} else options['text'] = match
+	const res = await postJson('gfx6', options);
+	return await message.send(res, {quoted: message.data},'image');
+});
+inrl({
+	pattern: 'gfx7 ?(.*)',
+	desc: "generate gfx logo",
+	type: 'gfx',
+}, async (message, match) => {
+	match = match || message.reply_message.text;
+	if(!match) return await message.send('_*Example:* gfx7 inrl|its me|dev_');
+	let options = {apikey:'inrl-bot-mdaqz3ks6md7'}, n= 1;
+	if(match.includes('|')){
+	options.text = match.split('|')[0];
+	match.split('|').splice(0).map(a=>options[`text${n++}`] = a);
+	} else options['text'] = match
+	const res = await postJson('gfx7', options);
+	return await message.send(res, {quoted: message.data},'image');
+});
+inrl({
+	pattern: 'gfx8 ?(.*)',
+	desc: "generate gfx logo",
+	type: 'gfx',
+}, async (message, match) => {
+	match = match || message.reply_message.text;
+	if(!match) return await message.send('_*Example:* gfx8 inrl|its me|dev_');
+	let options = {apikey:'inrl-bot-mdaqz3ks6md7'}, n= 1;
+	if(match.includes('|')){
+	options.text = match.split('|')[0];
+	match.split('|').splice(0).map(a=>options[`text${n++}`] = a);
+	} else options['text'] = match
+	const res = await postJson('gfx8', options);
+	return await message.send(res, {quoted: message.data},'image');
+});
+inrl({
+	pattern: 'gfx9 ?(.*)',
+	desc: "generate gfx logo",
+	type: 'gfx',
+}, async (message, match) => {
+	match = match || message.reply_message.text;
+	if(!match) return await message.send('_*Example:* gfx9 inrl|its me|dev_');
+	let options = {apikey:'inrl-bot-mdaqz3ks6md7'}, n= 1;
+	if(match.includes('|')){
+	options.text = match.split('|')[0];
+	match.split('|').splice(0).map(a=>options[`text${n++}`] = a);
+	} else options['text'] = match
+	const res = await postJson('gfx9', options);
+	return await message.send(res, {quoted: message.data},'image');
+});
+inrl({
+	pattern: 'gfx10 ?(.*)',
+	desc: "generate gfx logo",
+	type: 'gfx',
+}, async (message, match) => {
+	match = match || message.reply_message.text;
+	if(!match) return await message.send('_*Example:* gfx10 inrl|its me|dev_');
+	let options = {apikey:'inrl-bot-mdaqz3ks6md7'}, n= 1;
+	if(match.includes('|')){
+	options.text = match.split('|')[0];
+	match.split('|').splice(0).map(a=>options[`text${n++}`] = a);
+	} else options['text'] = match
+	const res = await postJson('gfx10', options);
+	return await message.send(res, {quoted: message.data},'image');
+});
+inrl({
+	pattern: 'gfx11 ?(.*)',
+	desc: "generate gfx logo",
+	type: 'gfx',
+}, async (message, match) => {
+	match = match || message.reply_message.text;
+	if(!match) return await message.send('_*Example:* gfx11 inrl|its me|dev_');
+	let options = {apikey:'inrl-bot-mdaqz3ks6md7'}, n= 1;
+	if(match.includes('|')){
+	options.text = match.split('|')[0];
+	match.split('|').splice(0).map(a=>options[`text${n++}`] = a);
+	} else options['text'] = match
+	const res = await postJson('gfx11', options);
+	return await message.send(res, {quoted: message.data},'image');
+});
+inrl({
+	pattern: 'gfx12 ?(.*)',
+	desc: "generate gfx logo",
+	type: 'gfx',
+}, async (message, match) => {
+	match = match || message.reply_message.text;
+	if(!match) return await message.send('_*Example:* gfx12 inrl|its me|dev_');
+	let options = {apikey:'inrl-bot-mdaqz3ks6md7'}, n= 1;
+	if(match.includes('|')){
+	options.text = match.split('|')[0];
+	match.split('|').splice(0).map(a=>options[`text${n++}`] = a);
+	} else options['text'] = match
+	const res = await postJson('gfx12', options);
+	return await message.send(res, {quoted: message.data},'image');
+});
+Comment
+ 
+Leave a comment
+ 
+Footer
+© 2024 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
+Security
+Status
+Docs
+Contact
+Manage cookies
+Do not share my personal information
