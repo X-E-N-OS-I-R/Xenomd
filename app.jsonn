@@ -28,7 +28,7 @@
     },
     "OWNER_NAME": {XENO MD}
       "description": "Enter Your Owner Name",
-      "requried": false,
+      "requrired": false,
       "value": "XENO MD"
     },
     "OWNER_NUMBER": {
