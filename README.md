@@ -22,7 +22,7 @@ XENO-MD Multi Device Whatsapp Bot.
 
 Fork The Repo
     <br>
-<a href="https://github.com/A-d-i-t-h-y-a-n7/XENO-MD/fork"><img title="XENO-MD" src="https://img.shields.io/badge/FORK XENO MD-h?color=black&style=for-the-badge&logo=stackshare"></a>
+<a href="https://github.com/Abhishem suresh2/phoenix-MD/fork"><img title="XENO-MD" src="https://img.shields.io/badge/FORK XENO MD-h?color=black&style=for-the-badge&logo=stackshare"></a>
 
 #### Scan QR Code
 
