@@ -13,7 +13,7 @@
 <a 
 
 ####  
-Phoenix-MD Multi Device Whatsapp Bot.
+XENO-MD Multi Device Whatsapp Bot.
 ## <sub>[External Plugins](https://github.com/A-d-i-t-h-y-a-n7/External-Plugins)</sub>
 
 ***
@@ -26,9 +26,9 @@ Fork The Repo
 
 #### Scan QR Code
 
-<a href="https://phoenix-md-qr-code-569ef64f2cad.herokuapp.com"><img title="XENO-MD Scan Qr" src="https://img.shields.io/badge/SCAN QR CODE 1-h?color=black&style=for-the-badge&logo=msi"></a>
+<a href="https://XENO-md-qr-code-569ef64f2cad.herokuapp.com"><img title="XENO-MD Scan Qr" src="https://img.shields.io/badge/SCAN QR CODE 1-h?color=black&style=for-the-badge&logo=msi"></a>
      <br>
-<a href="https://phoenix-md-qr-code-569ef64f2cad.herokuapp.com/session"><img title="XENO-MD Scan Qr" src="https://img.shields.io/badge/SCAN QR CODE 2-h?color=black&style=for-the-badge&logo=msi"></a>     
+<a href="https://XENO-md-qr-code-569ef64f2cad.herokuapp.com/session"><img title="XENO-MD Scan Qr" src="https://img.shields.io/badge/SCAN QR CODE 2-h?color=red&style=for-the-badge&logo=msi"></a>     
 
 
 ## XENO-MD Deploy Method
