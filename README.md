@@ -22,13 +22,13 @@ Phoenix-MD Multi Device Whatsapp Bot.
 
 Fork The Repo
     <br>
-<a href="https://github.com/A-d-i-t-h-y-a-n7/XENO-MD/fork"><img title="XENO-MD" src="https://img.shields.io/badge/FORK Phoenix MD-h?color=black&style=for-the-badge&logo=stackshare"></a>
+<a href="https://github.com/A-d-i-t-h-y-a-n7/XENO-MD/fork"><img title="XENO-MD" src="https://img.shields.io/badge/FORK XENO MD-h?color=black&style=for-the-badge&logo=stackshare"></a>
 
 #### Scan QR Code
 
-<a href="https://phoenix-md-qr-code-569ef64f2cad.herokuapp.com"><img title="Phoenix-MD Scan Qr" src="https://img.shields.io/badge/SCAN QR CODE 1-h?color=black&style=for-the-badge&logo=msi"></a>
+<a href="https://phoenix-md-qr-code-569ef64f2cad.herokuapp.com"><img title="XENO-MD Scan Qr" src="https://img.shields.io/badge/SCAN QR CODE 1-h?color=black&style=for-the-badge&logo=msi"></a>
      <br>
-<a href="https://phoenix-md-qr-code-569ef64f2cad.herokuapp.com/session"><img title="Phoenix-MD Scan Qr" src="https://img.shields.io/badge/SCAN QR CODE 2-h?color=black&style=for-the-badge&logo=msi"></a>     
+<a href="https://phoenix-md-qr-code-569ef64f2cad.herokuapp.com/session"><img title="XENO-MD Scan Qr" src="https://img.shields.io/badge/SCAN QR CODE 2-h?color=black&style=for-the-badge&logo=msi"></a>     
 
 
 ## XENO-MD Deploy Method
@@ -36,11 +36,11 @@ Fork The Repo
 
 ### Deploy Codespace
 
-<a href="https://github.com/codespaces/new"><img title="Phoenix-MD Deploy CodeSpace" src="https://img.shields.io/badge/DEPLOY CODESPACE-h?color=black&style=for-the-badge&logo=visualstudiocode"></a>
+<a href="https://github.com/codespaces/new"><img title="XENO-MD MD Deploy CodeSpace" src="https://img.shields.io/badge/DEPLOY CODESPACE-h?color=black&style=for-the-badge&logo=visualstudiocode"></a>
 
 ### Codespace Tutorial
 
-<a href="https://youtu.be/ZSwJtaN0BUk?si=FOsYpMs4WbvBFCpY"><img title="Phoenix-MD Deploy CodeSpace" src="https://img.shields.io/badge/Codespace Tutorial-h?color=black&style=for-the-badge&logo=visualstudiocode"></a>
+<a href="https://youtu.be/ZSwJtaN0BUk?si=FOsYpMs4WbvBFCpY"><img title="XENO-MD Deploy CodeSpace" src="https://img.shields.io/badge/Codespace Tutorial-h?color=black&style=for-the-badge&logo=visualstudiocode"></a>
 
 ### Deploy Heroku 
 
